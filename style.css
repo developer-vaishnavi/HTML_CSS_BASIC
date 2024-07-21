@@ -87,14 +87,20 @@ h1::first-letter {
 nav {
   align-self: center;
 }
-a {
+a:link {
   color: #1098ad;
 }
-a:hover {
-  color: rgb(16, 113, 113);
-}
+
 a:visited {
   color: #043c45;
+}
+
+a:hover {
+  color: rgb(47, 114, 114);
+}
+
+a:active {
+  color: #022e35;
 }
 
 /* Author Section */
@@ -166,7 +172,6 @@ li {
   line-height: -0.5px;
   letter-spacing: -0.5px;
   font-weight: bold;
-  color: #1098ad;
 }
 
 .related-content {
